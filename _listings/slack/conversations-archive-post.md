@@ -33,6 +33,7 @@ paths:
       tags:
       - messaging
       - conversations
+      - archives
 definitions:
   objs_im:
     properties:
