@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Slack",
+	"description": "This is a repository of slack APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/slack.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-31",
+	"url": "http://slack.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Slack",
+			"x-api-slug": "slack",
+			"description": "Slack is a team communication application providing services such as real-time messaging, archiving, and to search for modern teams. It offers one-on-one messaging, private groups, persistent chat rooms, and direct messaging as well as group chats organized by topic. All content inside Slack is searchable from one search box and it integrates with a number of third-party services, including Google Docs, Dropbox, Heroku, Crashlytics, GitHub, and Zendesk.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png",
+			"humanURL": "https://api.slack.com",
+			"baseURL": "https://slack.com//api",
+			"tags": "Slack",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/slack/master/_listings/slack/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Slack",
+	"include": [
+		{
+			"name": "Slack",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/slack/master/_listings/slack/apis.yaml"
+		}
+	]
+}
